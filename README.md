@@ -1,1 +1,1 @@
-# e-learning-unix
+# katacoda-scenarios
