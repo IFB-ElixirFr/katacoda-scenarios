@@ -6,37 +6,33 @@
   "details": {
     "steps": [
       {
-      "title": "Linux vs. Unix",
-      "text": "step-Linux_vs_Unix.md"
-      },
-      {
       "title": "Computer interfaces",
-      "text": "step-Computer_interfaces.md"
+      "text": "S01_step-Computer_interfaces.md"
       },
       {
-      "title": "The Command Line Interface Shell",
-      "text": "step-The_command_line_interface_Shell.md"
+      "title": "The Shell",
+      "text": "S01_step-The_Shell.md"
       },
       {
       "title": "The terminal",
-      "text": "step-The_terminal.md"
+      "text": "S01_step-The_terminal.md"
       },
       {
-      "title": "Getting help",
-      "text": "step-Getting_help.md"
+      "title": "Unix command",
+      "text": "S01_step-Unix_command.md"
       },
       {
-      "title": "Command arguments",
-      "text": "step-Command_arguments.md"
+      "title": "A simple basic command: ls",
+      "text": "S01_step-A_simple_basic_command_ls.md"
       }
     ],
     "intro": {
-      "text": "welcome.md",
-      "courseData": "intro-background.sh",
+      "text": "S01_intro.md",
+      "courseData": "S01_intro-background.sh",
       "credits": ""
     },
     "finish": {
-      "text": "finish.md"
+      "text": "S01_finish.md"
     }
   },
   "environment": {
