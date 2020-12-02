@@ -6,20 +6,28 @@
   "details": {
     "steps": [
       {
-      "title": "Shell presentation",
-      "text": "step-shell.md"
+      "title": "Linux vs. Unix",
+      "text": "step-Linux_vs_Unix.md"
       },
       {
-      "title": "Getting information about command: man command",
-      "text": "step-man.md"
+      "title": "Computer interfaces",
+      "text": "step-Computer_interfaces.md"
       },
       {
-      "title": "Downloading files: wget and tar commands",
-      "text": "step-getData.md"
+      "title": "The Command Line Interface Shell",
+      "text": "step-The_command_line_interface_Shell.md"
       },
       {
-      "title": "list files: ls command",
-      "text": "step-ls.md"
+      "title": "The terminal",
+      "text": "step-The_terminal.md"
+      },
+      {
+      "title": "Getting help",
+      "text": "step-Getting_help.md"
+      },
+      {
+      "title": "Command arguments",
+      "text": "step-Command_arguments.md"
       }
     ],
     "intro": {
