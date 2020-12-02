@@ -6,8 +6,8 @@
   "details": {
     "steps": [
       {
-      "title": "Unix & Computer interfaces",
-      "text": "S01_step-Computer_interfaces.md"
+      "title": "Unix & Command lines",
+      "text": "S01_step-Unix_and_Command_lines.md"
       },
       {
       "title": "The Shell",
