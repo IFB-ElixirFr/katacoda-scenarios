@@ -1,5 +1,6 @@
 
-The Shell lives in a dedicated software: the terminal.
+
+We have already mentioned that the shell lived in a dedicated software: the terminal
 
 The terminal most generally appears as a simple windowed application that displays a prompt that usually ends by a `$` sign.
 

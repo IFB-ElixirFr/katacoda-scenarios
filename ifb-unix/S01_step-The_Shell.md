@@ -3,3 +3,7 @@ Indeed, the multiple steps of a bioinformatics analysis usually need to be store
 
 To access these powerful features, you need to learn a new way of thinking and a new language.
 
+Are you ready to learn shell? (select "YES" to continue!)
+(*) Yes!
+( ) No..
+
