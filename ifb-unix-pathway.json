@@ -1,0 +1,16 @@
+{
+    "title": "Unix Introduction - IFB",
+    "description": "2 sessions to take in hand unix",
+    "courses": [
+      {
+        "course_id": "session01",
+        "title": "First steps with command line interface",
+        "description": "Unix, Shell, Terminal, Command"
+      },
+      {
+        "course_id": "session02",
+        "title": "Unix files",
+        "description": "Unix files access"
+      }
+    ]
+  }
