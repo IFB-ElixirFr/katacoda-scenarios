@@ -1,38 +1,38 @@
 {
   "title": "Unix, Manipulating files and directories",
-  "description": "First unix steps",
+  "description": "First steps with command line interface",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
     "steps": [
       {
       "title": "Unix & Command lines",
-      "text": "S01_step-Unix_and_Command_lines.md"
+      "text": "step-Unix_and_Command_lines.md"
       },
       {
       "title": "The Shell",
-      "text": "S01_step-The_Shell.md"
+      "text": "step-The_Shell.md"
       },
       {
       "title": "The terminal",
-      "text": "S01_step-The_terminal.md"
+      "text": "step-The_terminal.md"
       },
       {
       "title": "Unix command",
-      "text": "S01_step-Unix_command.md"
+      "text": "step-Unix_command.md"
       },
       {
       "title": "A simple basic command: ls",
-      "text": "S01_step-A_simple_basic_command_ls.md"
+      "text": "step-A_simple_basic_command_ls.md"
       }
     ],
     "intro": {
-      "text": "S01_intro.md",
-      "courseData": "S01_intro-background.sh",
+      "text": "intro.md",
+      "courseData": "intro-background.sh",
       "credits": ""
     },
     "finish": {
-      "text": "S01_finish.md"
+      "text": "finish.md"
     }
   },
   "environment": {
