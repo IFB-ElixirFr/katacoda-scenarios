@@ -24,6 +24,10 @@
       {
       "title": "A simple basic command: ls",
       "text": "step-A_simple_basic_command_ls.md"
+      },
+      {
+      "title": "Getting help",
+      "text": "step-Getting_help.md"
       }
     ],
     "intro": {
