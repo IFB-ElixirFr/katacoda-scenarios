@@ -15,3 +15,13 @@ One may also refer to a filesystem object relatively to a folder where one is cu
 
 ![absolute and relative paths](./assets/absolute_and_relative_paths.png)
 
+
+>>What is the absolute path of the bwa folder for hg19 bank ?<<
+( ) /shared/bank/homo_sapiens/hg19
+(*) /shared/bank/homo_sapiens/hg19/bwa
+( ) bank/homo_sapiens/hg19/bwa
+
+>>If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/bwa`<<
+( ) homo_sapiens/hg19/bwa
+( ) ../../hg19/bwa
+(*) ../homo_sapiens/hg19/bwa
