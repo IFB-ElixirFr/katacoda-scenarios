@@ -30,7 +30,7 @@ One may also refer to a filesystem object relatively to a folder where one is cu
 ( ) /shared
 (*) /shared/bank
 
->>What is the absolute path of the bwa folder in hg19 banks ?<<
+>>What is the absolute path of the `hg19/bwa` folder in `/shared/bank` ?<<
 ( ) /shared/bank/homo_sapiens/hg19
 (*) /shared/bank/homo_sapiens/hg19/bwa
 ( ) bank/homo_sapiens/hg19/bwa
