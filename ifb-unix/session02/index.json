@@ -8,6 +8,34 @@
       {
       "title": "Tree, path & files",
       "text": "step-Tree_path_and_files.md"
+      },
+      {
+      "title": "Absolute paths",
+      "text": "step-Absolute_paths.md"
+      },
+      {
+      "title": "Relative paths",
+      "text": "step-Relative_paths.md"
+      },
+      {
+      "title": "Change Directory",
+      "text": "step-ChangeDir.md"
+      },
+      {
+      "title": "The HOME Directory",
+      "text": "step-HOMEDir.md"
+      },
+      {
+      "title": "Move Directory",
+      "text": "step-MoveDir.md"
+      }
+      {
+      "title": "Create Directory",
+      "text": "step-MakeDir.md"
+      },
+      {
+      "title": "Delete Directory",
+      "text": "step-RemoveDir.md"
       }
     ],
     "intro": {
