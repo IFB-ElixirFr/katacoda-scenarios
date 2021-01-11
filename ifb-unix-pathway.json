@@ -1,6 +1,6 @@
 {
     "title": "Unix Introduction - IFB",
-    "description": "2 sessions to take in hand unix",
+    "description": "Sessions to take in hand unix",
     "courses": [
       {
         "course_id": "session01",
@@ -11,6 +11,16 @@
         "course_id": "session02",
         "title": "Unix files",
         "description": "Unix files access"
+      },
+      {
+        "course_id": "session03",
+        "title": "Manipulating data",
+        "description": "Work with the data into files"
+      },
+      {
+        "course_id": "session04",
+        "title": "Combining tools",
+        "description": "Stream, sort & pipe"
       }
     ]
   }
