@@ -15,3 +15,27 @@ One may also refer to a filesystem object relatively to a folder where one is cu
 
 ![absolute and relative paths](./assets/absolute_and_relative_paths.png)
 
+
+>>What is the absolute path of the parent directory of the folder `/shared/bank/bos_taurus` ?<<
+( ) /
+( ) /shared
+(*) /shared/bank
+
+>>Wich type of path is shared/bank ?<<
+( ) Absolute
+(*) Relative
+
+>>If my current working directory is `/shared/bank/homo_sapiens`, to which absolute path refers the path `..` ?<<
+( ) /
+( ) /shared
+(*) /shared/bank
+
+>>What is the absolute path of the `hg19/bwa` folder in `/shared/bank` ?<<
+( ) /shared/bank/homo_sapiens/hg19
+(*) /shared/bank/homo_sapiens/hg19/bwa
+( ) bank/homo_sapiens/hg19/bwa
+
+>>If my current working directory is `/shared/bank/bos_taurus` what is the relative path to `/shared/bank/homo_sapiens/hg19/bwa`<<
+( ) homo_sapiens/hg19/bwa
+( ) ../../hg19/bwa
+(*) ../homo_sapiens/hg19/bwa
