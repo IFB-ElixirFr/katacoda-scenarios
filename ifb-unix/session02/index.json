@@ -18,24 +18,16 @@
       "text": "step-Relative_paths.md"
       },
       {
-      "title": "Change Directory",
+      "title": "Change directory",
       "text": "step-ChangeDir.md"
       },
       {
-      "title": "The HOME Directory",
+      "title": "The HOME directory",
       "text": "step-HOMEDir.md"
       },
       {
-      "title": "Move Directory",
-      "text": "step-MoveDir.md"
-      }
-      {
-      "title": "Create Directory",
+      "title": "Create or remove directory",
       "text": "step-MakeDir.md"
-      },
-      {
-      "title": "Delete Directory",
-      "text": "step-RemoveDir.md"
       }
     ],
     "intro": {

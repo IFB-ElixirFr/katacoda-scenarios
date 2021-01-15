@@ -7,7 +7,19 @@ The tools we’ll use are fairly simple, but are solid building blocks.
 
 ###  *cat*
 
-A first command allowing to view the content of a file is **cat**.
+A first command allowing to view the content of a file is `cat`:
+
 `cat gnagnagna.fasta`
-This command will print the whole content of the gnagnagna.fasta file to the screen.
+
+This command will print the whole content of the _gnagnagna.fasta_ file to the screen.
+
+
+Print the content of the _belebele.fasta_ file. 
+
+>> What are the last three nucleotides of the file ? <<
+(*) ici
+( ) ele
+( ) atc
+( ) bel
+
 

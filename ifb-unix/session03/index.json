@@ -8,6 +8,38 @@
       {
       "title": "Manipulating data",
       "text": "step-Files_content.md"
+      },
+      {
+      "title": "Manipulating data",
+      "text": "step-Files_content.md"
+      },
+      {
+      "title": "Digging through a large file",
+      "text": "step-LessCommand.md"
+      },
+      {
+      "title": "The begining of a file",
+      "text": "step-HeadCommand.md"
+      },
+      {
+      "title": "The end of a file",
+      "text": "step-TailCommand.md"
+      },
+      {
+      "title": "Counting words or lines of a file",
+      "text": "step-WcCommand.md"
+      },
+      {
+      "title": "Searching patterns",
+      "text": "step-GrepCommand.md"
+      },
+      {
+      "title": "Extracting columns",
+      "text": "step-CutCommand.md"
+      },
+      {
+      "title": "Other useful commands",
+      "text": "step-HistoryCommand.md"
       }
     ],
     "intro": {

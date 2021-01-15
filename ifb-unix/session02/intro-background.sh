@@ -45,5 +45,10 @@ touch \
   nr_2018-09-28/blast/nr.01.psd nr_2018-09-28/blast/nr.01.ppi nr_2018-09-28/blast/nr.01.psd nr_2018-09-28/blast/nr.01.phd nr_2018-09-28/blast/nr.02.psd nr_2018-09-28/blast/nr.02.ppi nr_2018-09-28/blast/nr.02.psd nr_2018-09-28/blast/nr.02.phd \
   nr_2018-09-28/diamond/nr.dmnd nr_2018-09-28/diamond/viral.protein_refseq_98.dmnd
 
+## home folder
+mkdir -p $HOME/test
+cat "first test" > $HOME/test/a_first_test_file.txt
+cat "second test" > $HOME/test/a_second_test_file.txt
+
 ## Starting point...
-cd $PROJECT
+cd $HOME
