@@ -5,7 +5,7 @@ For instance, display the content of the file _bidule.fasta_ with the `cat` comm
 
 The `less` command allows you to open a file and browse its content interactively (line by line or page by page): 
 
-`less bidule.fasta`
+`less belebele.fasta`
 
 Once in *less*, you can use the following keys to navigate into the file:
 
@@ -27,5 +27,4 @@ Use <kbd>q</kbd> to quit the *less* command.
 ( ) 1
 (*) 2
 ( ) 3
-( ) 4
 
