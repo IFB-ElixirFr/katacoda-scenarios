@@ -16,8 +16,8 @@ This command will print the whole content of the _gnagnagna.fasta_ file to the s
 
 Print the content of the _belebele.fasta_ file. 
 
->> What are the last three nucleotides of the file ? <<
-(*) ici
+>> What are the last three nucleotides of the _belebele.fasta_ file ? <<
+(*) aag
 ( ) ele
 ( ) atc
 ( ) bel
