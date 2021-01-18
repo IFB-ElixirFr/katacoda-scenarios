@@ -5,9 +5,9 @@ In the example below, the `tree` command is used to display the contents of the 
 
 `tree -d -L 2 /shared`
 
-Those repositories where concieved to stored gemone files of different species.
+Those repositories where conceived to stored genone files of different species.
 
-From the previous command, one can conclude construct a path to the `homo_sapiens` folder for instance. This path is:
+From the previous command, one can construct a path to the `homo_sapiens` folder for instance. This path is:
 
 `/shared/bank/homo_sapiens`
 
