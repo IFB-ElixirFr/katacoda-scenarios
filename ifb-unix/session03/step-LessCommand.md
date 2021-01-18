@@ -22,3 +22,10 @@ Proceeding that way will search forward into the file.
 To search backwards, you need to use <kbd>?</kbd> instead of <kbd>/</kbd> and then proceed similarly.
 Use <kbd>q</kbd> to quit the *less* command.
 
+>> How many GGT motif counts the _gnagnagna.fasta_ file? <<
+( ) 0
+( ) 1
+(*) 2
+( ) 3
+( ) 4
+
