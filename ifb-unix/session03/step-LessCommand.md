@@ -1,7 +1,7 @@
 ### *less*
 
 Very often the files you want to read are too large for your screen.
-For instance, display the content of the file _bidule.fasta_ with the `cat` command.
+For instance, display the content of the file _belebele.fasta_ with the `cat` command.
 
 The `less` command allows you to open a file and browse its content interactively (line by line or page by page): 
 
