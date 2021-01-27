@@ -4,11 +4,14 @@
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
+    "assets": {
+       "host01": [
+           {"file": "gnagnagna.fasta", "target": "data", "chmod": "+r"},
+           {"file": "belebele.fasta", "target": "data", "chmod": "+r"},
+           {"file": "belebele.bed", "target": "data", "chmod": "+r"}
+       ]
+    },
     "steps": [
-      {
-      "title": "Manipulating data",
-      "text": "step-Files_content.md"
-      },
       {
       "title": "Manipulating data",
       "text": "step-Files_content.md"
@@ -44,7 +47,6 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "intro-background.sh",
       "credits": ""
     },
     "finish": {
