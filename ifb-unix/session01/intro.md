@@ -1,6 +1,6 @@
 Welcome!
 
-During this course, you will discover the Unix system and you run some Bash commands.
+During this course, you will discover the Unix system and run some Bash commands.
 
 The left panel contains the explanations and guides to run Unix commands. Use the right panel to type the command examples and experiment as you wishe.
 
