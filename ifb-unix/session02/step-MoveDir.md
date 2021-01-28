@@ -1,4 +1,4 @@
-## The mv command
+## Move (or rename) files and directories
 
 The `mv` (**m**o**v**e) command takes 2 paths as argument:
 
@@ -6,8 +6,8 @@ The `mv` (**m**o**v**e) command takes 2 paths as argument:
 mv <source_path> <destination_path>
 ```
 
-It **move**s the **source** into the **destination**. 
-It works for files or directories.
+It moves the **source** into the **destination**.  
+It works for files or directories.  
 It is also used to rename files or directories.
 
 Try this `mv` command to rename the file from `second_file.txt` to `2nd_file.txt` and to move it towards your HOME directory: 
@@ -18,10 +18,11 @@ mv test/second_file.txt 2nd_file.txt
 tree
 ```
 
-## The rm command
+## Delete files and directories
 
-The `rm` (**r**e**m**ove) command is used to delete files or directories (for example to empty a directory).
-Apply this command to delete the file nammed `second_file.txt` from the `~/test` directory:
+The `rm` (**r**e**m**ove) command deletes files or directories.
+
+Use `rm` to delete the file named `second_file.txt` from the directory `~/test`. Also use `tree` to check the organisation of files and directory from the working directory:
 
 ```bash
 cd
@@ -36,7 +37,7 @@ To delete a directory, you need to use the `rm` command with the option `-r`:
 rm -r <path_to_a_directory_to_delete>
 ```
 
-Be very careful with this `rm` command, as there is no way to recover your deleted files in Unix!
+Be very careful with this `rm` command. There is no way to recover your deleted files in Unix!
 
 
 
