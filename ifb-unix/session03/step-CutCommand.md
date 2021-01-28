@@ -22,14 +22,14 @@ cut -f 1-2,4 belebele.bed
 
 You can change the delimiter between fields with option _-d_. 
 
-Look at the begining of the _belebele.bed_ file (try `head belebele.bed`). 
+Look at the begining of the _gnagnagna.bed_ file (try `head gnagnagna.bed`). 
 It contains 6 columns, separated by a tabulation.
 
->> Choose the correct command(s) to extract the 3rd, 5th, and 6th columns of the belebele.bed file: <<
-[*] cut -f 3,5,6 belebele.bed
-[*] cut -f 3,5-6 belebele.bed
-[] cut -f 3,5,6 -d "," belebele.bed
-[] cut -f 3,5-6 -t "/t" belebele.bed
+>> Choose the correct command(s) to extract the 3rd, 5th, and 6th columns of the gnagnagna.bed file: <<
+[*] cut -f 3,5,6 gnagnagna.bed
+[*] cut -f 3,5-6 gnagnagna.bed
+[] cut -f 3,5,6 -d "," gnagnagna.bed
+[] cut -f 3,5-6 -t "/t" gnagnagna.bed
 
 
 
