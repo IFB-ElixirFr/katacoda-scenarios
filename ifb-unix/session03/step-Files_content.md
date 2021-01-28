@@ -3,7 +3,7 @@ The commands of the previous chapter allowed you to move around in the Unix file
 This chapter will show you how to explore the data in those files. 
 The tools we’ll use are fairly simple, but are solid building blocks.
 
-First thing, go to the `data` repository with the `cd` command seen in the previous session:
+First thing, go to the `data` directory with the `cd` command seen in the previous session:
 
 ``` bash
 cd data
