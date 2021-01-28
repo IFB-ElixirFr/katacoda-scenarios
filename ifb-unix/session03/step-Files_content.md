@@ -5,7 +5,10 @@ The tools we’ll use are fairly simple, but are solid building blocks.
 
 First thing, go to the `data` repository with the `cd` command seen in the previous session:
 
-`cd data`
+```cd data```
+
+Check that you are in the right folder with `pwd`:```pwd```
+The result should be `/root/data
 
 ## Step1:  How to look at the content of files ?
 
