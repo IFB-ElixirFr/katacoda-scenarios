@@ -10,7 +10,7 @@ For instance:
 grep gene-SAOUHSC_00079 belebele.bed
 ```
 
->> Print the line that contains the gene-CD630_RS00010 gene name in the file belebele.bed. What is the starting position? <<
+>> Print the line that contains the gene-CD630_RS00010 gene name in the file belebele.bed. What is the starting position (given in the 2nd column)? <<
 ( ) 74750
 ( ) 94950
 (*) 84750
@@ -23,7 +23,7 @@ If we do it now for gene ABC in the same file:
 grep ABC belebele.bed
 ```
 
-We get 0 lines containing the ABC gene name.
+We get no line containing the ABC gene name.
 
 To count the number of lines containing the _gene_ word, just add the `-c` option to the `grep` command:
 
