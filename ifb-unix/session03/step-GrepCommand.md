@@ -2,15 +2,15 @@
 
 ### *grep*
 
-The `grep` command extracts lines that match a given pattern. 
-A pattern could be either a simple word or a more general expression, often termed **regular expression** (see [here](https://librarycarpentry.org/lc-data-intro/01-regular-expressions/) to learn more about them). 
+The `grep` command extracts lines matching a given pattern. 
+A pattern can be a simple word or a more general expression, often termed **regular expression** (see [here](https://librarycarpentry.org/lc-data-intro/01-regular-expressions/) to learn more about these). 
 For instance:
 
 ```bash
 grep gene-SAOUHSC_00079 belebele.bed
 ```
 
->> Print the line that contains the gene-CD630_RS00010 gene name in the file belebele.bed. What is the starting position?? <<
+>> Print the line that contains the gene-CD630_RS00010 gene name in the file belebele.bed. What is the starting position? <<
 ( ) 74750
 ( ) 94950
 (*) 84750
@@ -20,12 +20,12 @@ grep gene-SAOUHSC_00079 belebele.bed
 If we do it now for gene ABC in the same file:
 
 ```bash
-grep ABC beautifulFriendLong.bed
+grep ABC belebele.bed
 ```
 
-we get the n lines containing the ABC gene name.
+we get 0 lines containing the ABC gene name.
 
-To count the number of lines containing the gene name, just add the `-c` option to the `grep` command:
+To count the number of lines containing the gene word, just add the `-c` option to the `grep` command:
 
 ```bash
 grep -c gene belebele.bed
