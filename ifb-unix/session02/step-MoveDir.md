@@ -10,23 +10,23 @@ It **move**s the **source** into the **destination**.
 It works for files or directories.
 It is also used to rename files or directories.
 
-Try this `mv` command to rename the file from `a_second_test_file.txt` to `2nd_file.txt` and to move it towards your HOME directory: 
+Try this `mv` command to rename the file from `second_file.txt` to `2nd_file.txt` and to move it towards your HOME directory: 
 ```bash
 cd
 tree
-mv test/a_second_test_file.txt 2nd_file.txt
+mv test/second_file.txt 2nd_file.txt
 tree
 ```
 
 ## The rm command
 
 The `rm` (**r**e**m**ove) command is used to delete files or directories (for example to empty a directory).
-Apply this command to delete the file nammed `a_second_test_file.txt` from the `~/test` directory:
+Apply this command to delete the file nammed `second_file.txt` from the `~/test` directory:
 
 ```bash
 cd
 tree
-rm test/a_first_test_file.txt
+rm test/first_file.txt
 tree
 ```
 
