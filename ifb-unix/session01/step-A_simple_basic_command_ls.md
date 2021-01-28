@@ -57,10 +57,10 @@ ls -sh Data
 
 > ### Summary
 
-Here we learn that:
-- we can execute a command by typing their name (options and/or arguments) and pressing <kbd>enter</kbd>
-- we can add options to modify the command behavior
-- options start with a dash `-` (short form) or a double dash `--` (long form)
-- several options of the short form can be combined (without space and after a single dash)
-- command name can be followed (or not) by an argument
+> Here we learn that:
+> - we can execute a command by typing their name (options and/or arguments) and pressing <kbd>enter</kbd>
+> - we can add options to modify the command behavior
+> - options start with a dash `-` (short form) or a double dash `--` (long form)
+> - several options of the short form can be combined (without space and after a single dash)
+> - command name can be followed (or not) by an argument
 
