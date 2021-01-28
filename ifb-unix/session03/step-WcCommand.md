@@ -9,7 +9,7 @@ wc gnagnagna.bed
 
 The _gnagnagna.bed_ has from left to right: 8 lines, 48 words and 364 characters.
 
-To output the number of lines, run `wc` with option _-l_:
+To output only the number of lines, run `wc` with option _-l_:
 
 ```bash
 wc -l gnagnagna.bed
