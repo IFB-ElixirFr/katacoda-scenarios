@@ -4,18 +4,18 @@
     "courses": [
       {
         "course_id": "session01",
-        "title": "First steps with command line interface",
-        "description": "Unix, Shell, Terminal, Command"
+        "title": "Basics of the command line interface",
+        "description": "Unix, Shell, Terminal & command"
       },
       {
         "course_id": "session02",
-        "title": "Unix files",
-        "description": "Unix files access"
+        "title": "Manipulating files and directories",
+        "description": "tree, pwd, cd, ls, mkdir, cp, mv & rm"
       },
       {
         "course_id": "session03",
         "title": "Manipulating data",
-        "description": "Work with the data into files"
+        "description": "less, cat, head, tail, wc, grep & cut"
       }
     ]
   }

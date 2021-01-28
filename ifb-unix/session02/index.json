@@ -1,6 +1,6 @@
 {
-  "title": "Unix, Manipulating files and directories",
-  "description": "Unix files",
+  "title": "Manipulating files and directories",
+  "description": "tree, pwd, cd, ls, mkdir, cp, mv & rm",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {

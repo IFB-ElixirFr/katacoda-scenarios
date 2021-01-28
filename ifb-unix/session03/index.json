@@ -1,6 +1,6 @@
 {
   "title": "Manipulating data",
-  "description": "Work with the data into files",
+  "description": "less, cat, head, tail, wc, grep & cut",
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
