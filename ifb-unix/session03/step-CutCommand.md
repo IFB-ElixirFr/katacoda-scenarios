@@ -8,13 +8,17 @@ The main use of this command concerns the extraction of columns indicated by the
 
 Here an example to extract the 3rd column of the _beautifulFriendLong.bed_ file:
 
-`cut -f 3 beautifulFriendLong.bed`
+```bash
+cut -f 3 belebele.bed
+```
 
 Multiple columns can be extracted using a coma between two column numbers or a '-' for all successive columns.
 
 Try the extraction of the 2 first columns and the 4th one from the _beautifulFriendLong.bed_ file:
 
-`cut -f 1-2,4 beautifulFriendLong.bed`
+```bash
+cut -f 1-2,4 belebele.bed
+```
 
 You can change delimiter between fields with the option _-d_ of the `cut` command. 
 
@@ -25,7 +29,7 @@ It contains XXth columns, separated by a comma.
 [ ] cut -f 3,6,7 *.csv
 [ ] cut -f 3,6-7 *.csv
 [*] cut -f 3,6,7 -t "," *.csv
-[*] cut -f 3,6-7 -t "," *.csv
+[] cut -f 3,6-7 -t "/t" *.csv
 
 
 
