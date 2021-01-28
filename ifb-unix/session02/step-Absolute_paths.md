@@ -6,7 +6,7 @@ In the example below, the `tree` command displays the content of the `/shared` d
 tree -d -L 2 /shared
 ```
 
-These repositories where conceived to stored genone files of different species.
+These directories where created to store genome files of different species.
 
 From the previous command, we can construct a path from the root `/` to the `homo_sapiens` directory. This path is:
 
@@ -22,7 +22,7 @@ Paths are used in many Unix commands, such as the `ls` (that stands for **l**i**
 ls /shared/bank/homo_sapiens
 ```
 
-This `ls` command lists the content of the specified directory.
+This `ls` command lists the content of the specified directory (also named **argument** of the ls command).
 
 
 >>What does the command `ls /shared/bank/homo_sapiens` return?<<
