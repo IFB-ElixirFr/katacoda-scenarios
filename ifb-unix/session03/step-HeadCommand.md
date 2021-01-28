@@ -18,7 +18,7 @@ head -n 15 belebele.bed
 will show you the first 15 lines.
 
 
->> Print the first line of the _bidule.fasta_ file. What is the value of the third column ? Choose the right answer: <<
+>> Print the first line of the belebele.bed file. What is the value of the third column ? Choose the right answer: <<
 ( ) 1878
 (*) 2821361
 ( ) 3289
