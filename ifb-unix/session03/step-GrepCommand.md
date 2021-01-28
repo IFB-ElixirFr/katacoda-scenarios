@@ -23,15 +23,15 @@ If we do it now for gene ABC in the same file:
 grep ABC belebele.bed
 ```
 
-we get 0 lines containing the ABC gene name.
+We get 0 lines containing the ABC gene name.
 
-To count the number of lines containing the gene word, just add the `-c` option to the `grep` command:
+To count the number of lines containing the _gene_ word, just add the `-c` option to the `grep` command:
 
 ```bash
 grep -c gene belebele.bed
 ```
 
->> Count the number of lines containing *cds* in belebele.bed ? <<
+>> Count the number of lines containing the <i>cds</i> word in belebele.bed ? <<
 ( ) 70
 ( ) 71
 (*) 72
