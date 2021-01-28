@@ -5,7 +5,7 @@ The tools we’ll use are fairly simple, but are solid building blocks.
 
 First thing, go to the `data` repository with the `cd` command seen in the previous session:
 
-`cd data`{{execute}}
+`cd data`
 
 ## Step1:  How to look at the content of files ?
 
@@ -13,7 +13,7 @@ First thing, go to the `data` repository with the `cd` command seen in the previ
 
 A first command allowing to view the content of a file is `cat`:
 
-`cat gnagnagna.fasta`{{execute}}
+`cat gnagnagna.fasta`
 
 This command will print the whole content of the _gnagnagna.fasta_ file to the screen.
 
