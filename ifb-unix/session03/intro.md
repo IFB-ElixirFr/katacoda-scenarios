@@ -1,6 +1,6 @@
 Welcome!
 
-During this course, you will learn how to manipulate files and folders.
+During this course, you will learn how to manipulate files and directories.
 
 The left panel contains explanations and guides to run Unix commands. Use the right panel to type command examples and experiment as you wish.
 
