@@ -39,13 +39,14 @@ And the DESCRIPTION section explains all the possible options of the command.
 An other way of getting help is to use the `--help` or `-h` or `-help` or `help` option after a command name.
 Example, type the following commands:
 
-```
+```bash
 ls --help
 ls -h
 ```
 
 ### Ask Internet
 Some usefull ressources:
-- [](https://): http://
+- [explain shell command](https://https://explainshell.com): http://https://explainshell.com
+- [shell forum](https://stackoverflow.com)https://stackoverflow.com
 
 
