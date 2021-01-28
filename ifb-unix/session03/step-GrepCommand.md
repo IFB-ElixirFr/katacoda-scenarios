@@ -19,13 +19,17 @@ grep gene-SAOUHSC_00079 belebele.bed
 
 If we now for gene ABC in the same file:
 
-`grep ABC beautifulFriendLong.bed`
+```bash
+grep ABC beautifulFriendLong.bed
+```
 
 we get the n lines containing the ABC gene name.
 
 To count the number of lines containing the gene in name, just add the `-c` option to the `grep` command:
 
-`grep -c gene belebele.bed`
+```bash
+grep -c gene belebele.bed
+```
 
 >> Count the number of lines containing cds in name in belebele.bed ? <<
 ( ) 70
