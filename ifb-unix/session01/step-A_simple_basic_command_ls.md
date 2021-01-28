@@ -7,7 +7,9 @@ The Bash shell should display `Data` that is a directory named `Data`.
 
 Now, type the following command in your terminal (and press <kbd>enter</kbd>) :
 
-`ls Data`
+```bash
+ls Data
+```
 
 The Bash shell should display the 8 files included in the `Data` directory.
 
@@ -25,7 +27,9 @@ In Bash shell options start with a simple or double dash (`-` or `--`).
 For example, we can display the size of the files using the `--size` option of the `ls` command. 
 Lets try and type: 
 
-`ls --size Data`
+```bash
+ls --size Data
+```
 
 Now, the 8 files are displayed with their respective sizes (in blocks). 
 
@@ -35,7 +39,9 @@ You can use several options in the same command.
 You can merge short form options using a single dash as prefix.
 Example: type the foolowing command in your terminal:
 
-`ls -sh Data`
+```bash
+ls -sh Data
+```
 
 >> Among the following commands, which ones are correct? <<
 [*] ls -s -h Data
