@@ -3,16 +3,18 @@
 `wc` is the **w**ord **c**ount command. 
 It counts the number of lines, words, and characters in files:
 
-`wc beautifulFriend.bed`
+```bash
+wc gnagnagna.bed
+``` 
 
-The _beautifulFriend.bed_ has from left to right: xx lines, yy words and zz characters.
+The _gnagnagna.bed_ has from left to right: 8 lines, 48 words and 364 characters.
 
 To output the number of lines, run `wc` with option _-l_:
 
-`wc -l beautifulFriend.bed`
+`wc -l gnagnagna.bed`
 
->>How many lines has the `toto.bed` file?<<
-( ) 1
-( ) 2
-( ) 3
-(*) 4 -ici-
+>>How many lines has the `belebele.bed` file?<<
+( ) 5
+( ) 28
+( ) 67
+(*) 150 -ici-
