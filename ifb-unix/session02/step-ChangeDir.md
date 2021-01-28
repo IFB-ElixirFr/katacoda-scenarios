@@ -3,7 +3,7 @@ The target directory must specified using an absolute or a relative path.
 
 To experiment withe the `cd` command, run the following commands:
 
-```
+```bash
 cd /shared/bank/nr
 cd ../homo_sapiens
 ```
