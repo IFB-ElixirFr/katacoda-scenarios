@@ -7,7 +7,7 @@ The `less` command allows you to open a file and browse its content interactivel
 
 ```bash
 less belebele.fasta
-``
+```
 
 Once in `less`, you can use the following keys to navigate into the file:
 
