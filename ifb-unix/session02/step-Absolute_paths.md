@@ -1,4 +1,4 @@
-The `tree` command displays the tree-like organisation of files and sub-directories contains a particular folder.
+The `tree` command displays the tree-like organization of files and sub-directories contained in a particular directory.
 
 In the example below, the `tree` command displays the content of the `/shared` directory limited only to directories (option `-d`) and with only two levels of sub-directories (option `-L 2`):
 
@@ -22,7 +22,7 @@ Paths are used in many Unix commands, such as the `ls` (that stands for **l**i**
 ls /shared/bank/homo_sapiens
 ```
 
-This command list the content of the specified directory.
+This `ls` command lists the content of the specified directory.
 
 
 >>What does the command `ls /shared/bank/homo_sapiens` return?<<
