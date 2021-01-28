@@ -16,7 +16,7 @@ To delete a directory, you need to use the `rm` command with the option `-r`:
 rm -r <path_to_a_directory_to_delete>
 ```
 
-Be very carefull with this command, as there is no way to recover your delete files in Unix!
+Be very careful with this command, as there is no way to recover your deleted files in Unix!
 
 
 The `mv` (**m**o**v**e) command takes 2 paths as parameter: 
@@ -31,6 +31,6 @@ The `mv` command is also used to rename files or directories.
 
 
 >>The `mv` command differs from the `rm` command by (select the right proposal):<<
-[ ] `mv` applies to files or folders while `rm` applies to folders only
+[ ] `mv` applies to files or directories while `rm` applies to directories only
 [*] `mv` requires 2 paths while `rm` requires only one path
 
