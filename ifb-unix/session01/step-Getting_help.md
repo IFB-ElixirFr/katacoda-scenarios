@@ -49,6 +49,6 @@ ls -h
 ### Ask Internet
 Some usefull ressources:
 - [explain shell command](https://https://explainshell.com)
-- [shell forum](https://stackoverflow.com)
+- [a shell forum](https://stackoverflow.com)
 
 
