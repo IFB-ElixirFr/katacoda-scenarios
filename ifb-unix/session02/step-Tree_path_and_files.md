@@ -11,7 +11,7 @@ There are 2 ways to describe paths: **absolute** and **relative**.
 
 # Absolute path
 
-An absolute path is described from the root of the tree (ie. beginning by a `/`).
+An absolute path is described from the root of the tree (ie. beginning with a `/`).
 This path is composed of all the names of the different directories from the root of the tree to the target file or directory.
 
 # Relative path and the working directory
