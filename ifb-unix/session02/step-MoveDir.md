@@ -10,7 +10,7 @@ It **move**s the **source** into the **destination**.
 It works for files or directories.
 It is also used to rename files or directories.
 
-Try this `mv` command to rename the file from `a_second_test_file.txt` to `2nd_file.txt` and move it towards your HOME directory: 
+Try this `mv` command to rename the file from `a_second_test_file.txt` to `2nd_file.txt` and to move it towards your HOME directory: 
 ```bash
 cd
 tree
