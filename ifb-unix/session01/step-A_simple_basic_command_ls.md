@@ -1,47 +1,52 @@
+The Bash shell provides you a working space including files and directories.
 
-A basic but very useful command is `ls`, that’s **l**i**s**t content of a directory.
-On your Linux terminal on the right, type `ls` and then press <kbd>enter</kbd>.
+A very useful command is `ls`, that’s **l**i**s**t content of a directory.
+On your Unix terminal on the right, type `ls` and then press <kbd>enter</kbd>.
 
-The word `Data` should be printed out.
-This `Data` here is a directory that we will explore now.
+The Bash shell should display `Data` that is a directory named `Data`.
 
 Now, type the following command in your terminal (and press <kbd>enter</kbd>) :
 
 `ls Data`
 
-It should give 8 elements present in the `Data` directory.
+The Bash shell should display the 8 files included in the `Data` directory.
 
 Remarks : 
 * pay attention to the space character between `ls` and `Data`
-* don't forget to press <kbd>enter</kbd> to start execution
-* `ls` is the command 
-* `Data` is an argument provided to the command
+* don't forget to press <kbd>enter</kbd> to run commands
+* `ls` is the command **name**
+* `Data` is a directory name and an **argument** of the `ls` command
 
-### options
+### Options
 
-`ls` offers options to modify its behavior. 
-For example, we can display the size of the files with the `--size` option. 
+Options modify the way in which a command works.
+In Bash shell options start with a simple or double dash (`-` or `--`).
+
+For example, we can display the size of the files using the `--size` option of the `ls` command. 
 Lets try and type: 
 
 `ls --size Data`
 
 Now, the 8 files are displayed with their respective sizes (in blocks). 
-We can use a short form for this option by replacing `--size` (long form) by `-s` (short form).
-If we prefer to display sizes in more human readable formats (e.g., 1K 234M 2G) we add the `-h` option. 
-We can also combine this 2 short form options:
+
+You can use a short form for this option by replacing `--size` (long form) by `-s` (short form).
+Usually we use `-h` option to display sizes in more **h**uman readable formats (e.g. 1K 234M 2G). 
+You can use several options in the same command.
+You can merge short form options using a single dash as prefix.
+Example: type the foolowing command in your terminal:
 
 `ls -sh Data`
 
->> Among the following proposals, which give the same answer? <<
-[*] `ls -s -h Data`
-[*] `ls -sh Data`
-[ ] `ls -size -h Data`
-[*] `ls --size -h Data`
-[ ] `ls --sizeh Data`
-[ ] `ls --size-h Data`
-[*] `ls -h -s Data`
-[*] `ls -hs Data`
-[ ] `ls -hsize Data`
+>> Among the following commands, which ones are correct? <<
+[*] ls -s -h Data
+[*] ls -sh Data
+[ ] ls -size -h Data
+[*] ls --size -h Data
+[ ] ls --sizeh Data
+[ ] ls --size-h Data
+[*] ls -h -s Data
+[*] ls -hs Data
+[ ] ls -hsize Data
 
 
 ### Summary
