@@ -7,11 +7,6 @@ PROJECT=/shared/projects/facts/study1/fastq
 mkdir -p $PROJECT
 cd $PROJECT
 
-### Download data
-wget -O data.tar.gz https://zenodo.org/record/3997237/files/FAIR_Bioinfo_data.tar.gz?download=1
-tar -xzf data.tar.gz
-rm data.tar.gz
-
 ## Banks folders
 mkdir /shared/bank
 cd /shared/bank/
