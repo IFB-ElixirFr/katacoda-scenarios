@@ -11,7 +11,9 @@ The _gnagnagna.bed_ has from left to right: 8 lines, 48 words and 364 characters
 
 To output the number of lines, run `wc` with option _-l_:
 
-`wc -l gnagnagna.bed`
+```bash
+wc -l gnagnagna.bed
+``` 
 
 >>How many lines has the `belebele.bed` file?<<
 ( ) 5
