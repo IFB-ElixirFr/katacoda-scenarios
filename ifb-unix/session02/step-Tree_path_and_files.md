@@ -5,7 +5,7 @@ To work with files or directories, it is necessary to access them via their path
 Each folder name is separated by a `/` when you write the path.  
 The root of the tree structure is also represented by the first `/` in the path. 
 
-There are 2 ways to describe paths: **absolute and relative**. 
+There are 2 ways to describe paths: **absolute** and **relative**. 
 
 ![absolute and relative paths](./assets/absolute_and_relative_paths.png)
 
