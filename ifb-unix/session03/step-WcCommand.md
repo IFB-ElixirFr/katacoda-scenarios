@@ -17,4 +17,4 @@ To output the number of lines, run `wc` with option _-l_:
 ( ) 5
 ( ) 28
 ( ) 67
-(*) 150 -ici-
+(*) 150
