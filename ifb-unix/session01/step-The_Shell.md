@@ -5,7 +5,7 @@ These tasks are also easy to share with collaborators.
 
 To access these powerful features, you need to learn a new way of thinking and a new language.
 
->>Are you ready to learn Shell? (select "YES" to continue!) <<
+>>Are you ready to learn Shell? (select "Yes" to continue!) <<
 (*) Yes
 ( ) No
 
