@@ -1,36 +1,53 @@
-The `mkdir` command (**m**a**k**e **dir**rectory) creates a new repository:
+## The mkdir command
+
+The `mkdir` command (**m**a**k**e **dir**rectory) creates a new repository giving its path.
+
+Try the `mkdir` command to create a `my_dir` repository from your HOME directory. 
+First go to your HOME with the `cd` command, create the repository with the `mkdir` command, and see the result with `tree` command:
 
 ```bash
-mkdir <path_to_a_new_directory>
+cd
+mkdir my_dir
+tree
 ```
-
-The `rm` (**r**e**m**ove) command is used to delete files or directories (for example to empty a directory):
+Now always from your HOME directory, create another directory also nammed `my_dir` into the `/shared/projects/facts/` directory. 
+Display it with the `tree` command (reminder: use the <kbd>tab</kbd> key to speed up your writing of existing paths):
 
 ```bash
-rm <path_to_a_file_to_delete>
+tree /shared/projects/facts
+cd
+tree 
+mkdir /shared/projects/facts/my_dir
+tree
+tree /shared/projects/facts
 ```
+## The cp command
 
-To delete a directory, you need to use the `rm` command with the option `-r`:
+The `cp` (**c**o**p**y) command is used to copy files or directories. 
+It takes 2 paths as argument:
 
 ```bash
-rm -r <path_to_a_directory_to_delete>
+cp <source_path> <destination_path>
 ```
-
-Be very careful with this command, as there is no way to recover your deleted files in Unix!
-
-
-The `mv` (**m**o**v**e) command takes 2 paths as parameter: 
+Example: go to the `~/test` directory and duplicate the file nammed `a_first_test_file.txt` while changing its name to `a_third_test_file.txt`:
 
 ```bash
-mv <source_path> <destination_path>
+cd ~/test
+cp a_first_test_file.txt a_third_test_file.txt
+ls 
 ```
+Using with its `-r` (**r**ecursive) option, the `cp` command copies all files of the source directory to the destination directory.
+Try and copy the `~/test` repository and all the files its contains to a new directory nammed `my_test` in the `/shared/projects/facts/` directory:
 
-It moves the **source** into the **destination**. It works for files and directories.
+```bash
+tree /shared/projects/facts
+cp -r ~/test /shared/projects/facts/my_test
+tree /shared/projects/facts
+```
+>>Create a new repository nammed `new_dir` into the `/shared/projects/facts` directory. In this `new_dir`, copy the file `~/test/a_fisrt_file.txt` by renamming it `1srt_file.txt`. How many files are listed by the `tree /shared/projects/facts/new_dir` command?<<
+( ) 0
+(*) 1
+( ) 2
+( ) 3
 
-The `mv` command is also used to rename files or directories.
-
-
->>The `mv` command differs from the `rm` command by (select the right proposal):<<
-[ ] `mv` applies to files or directories while `rm` applies to directories only
-[*] `mv` requires 2 paths while `rm` requires only one path
 
