@@ -46,9 +46,9 @@ ls --help
 ls -h
 ```
 
-### Ask Internet
-Some usefull ressources:
-- [explain shell command](https://https://explainshell.com)
-- [a shell forum](https://stackoverflow.com)
+> ### Ask Internet
+> Some usefull ressources:
+> - [explain shell command](https://https://explainshell.com)
+> - [a shell forum](https://stackoverflow.com)
 
 
