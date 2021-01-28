@@ -11,8 +11,8 @@ less belebele.fasta
 
 Once in `less`, you can use the following keys to navigate into the file:
 
-- <kbd>enter</kbd> : go down one line
-- <kbd>space</kbd> : go down one page
+- <kbd>ENTER</kbd> : go down one line
+- <kbd>SPACE</kbd> : go down one page
 - <kbd>B</kbd> : go up one page
 - <kbd>G</kbd> : go to the beginning of file
 - <kbd>SHIFT</kbd>+<kbd>G</kbd> : go to the end of file
