@@ -15,7 +15,7 @@ To output only the number of lines, run `wc` with option _-l_:
 wc -l gnagnagna.bed
 ``` 
 
->>How many lines has the `belebele.bed` file?<<
+>>How many lines has the belebele.bed file?<<
 ( ) 5
 ( ) 28
 ( ) 67
