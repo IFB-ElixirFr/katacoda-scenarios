@@ -26,8 +26,12 @@
       "text": "step-HOMEDir.md"
       },
       {
-      "title": "Create or remove directory",
+      "title": "Create or copy",
       "text": "step-MakeDir.md"
+      },
+      {
+      "title": "Move or remove",
+      "text": "step-MoveDir.md"
       }
     ],
     "intro": {
