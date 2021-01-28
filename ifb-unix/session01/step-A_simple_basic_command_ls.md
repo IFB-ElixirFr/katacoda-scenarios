@@ -37,7 +37,7 @@ You can use a short form for this option by replacing `--size` (long form) by `-
 Usually we use `-h` option to display sizes in more **h**uman readable formats (e.g. 1K 234M 2G). 
 You can use several options in the same command.
 You can merge short form options using a single dash as prefix.
-Example: type the foolowing command in your terminal:
+Example: type the following command in your terminal:
 
 ```bash
 ls -sh Data
