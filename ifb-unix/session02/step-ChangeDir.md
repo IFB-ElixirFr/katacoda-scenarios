@@ -28,3 +28,9 @@ The key <kbd>Tab</kbd> triggers auto-completion. It means you just need to type 
 The <kbd>Tab</kbd> key is perhaps the most used key in Unix!
 
 Use the <kbd>TAB</kbd> key and `cd` to go into the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory.
+
+>>How many files are in the `/shared/bank/bos_taurus/UMD3.1/star-2.7.2b/` directory?<<
+( ) 2
+( ) 3
+( ) 4
+(*) 5
