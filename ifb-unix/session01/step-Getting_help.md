@@ -7,7 +7,9 @@ Use the <kbd>up</kbd> and <kbd>down</kbd> keys to move up and down into the manu
 
 Lets try and type:
 
-`man ls`
+```bash
+man ls
+```
 
 This manual contains several sections (e.g. NAME, SYNOPSIS, DESCRIPTION). 
 As indicated in the NAME section this command is used to list a directory content. 
