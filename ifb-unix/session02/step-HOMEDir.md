@@ -21,10 +21,10 @@ However, depending on the computer note that the HOME directory is not always th
 Ask your administrator!
 
 >>Select the right current directory after the commands included in back cotes: `cd /shared/bank/nr ; cd ~/test ; cd `:<<
-( ) /shared/bank/nr/
-( ) test/
-(*) your HOME directory
-( ) /shared/bank/
-(  ) nr/
-(*) /root/
-( ) /root/test/
+[ ] /shared/bank/nr/
+[ ] test/
+[*] your HOME directory
+[ ] /shared/bank/
+[ ] nr/
+[*] /root/
+[ ] /root/test/
