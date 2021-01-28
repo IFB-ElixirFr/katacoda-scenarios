@@ -8,7 +8,7 @@ First thing, go to the `data` repository with the `cd` command seen in the previ
 ```cd data```
 
 Check that you are in the right folder with `pwd`:```pwd```
-The result should be `/root/data
+The result should be `/root/data`
 
 ## Step1:  How to look at the content of files ?
 
