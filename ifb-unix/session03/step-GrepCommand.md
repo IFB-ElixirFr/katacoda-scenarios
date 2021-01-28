@@ -10,14 +10,14 @@ For instance:
 grep gene-SAOUHSC_00079 belebele.bed
 ```
 
->> Print the line that contains the gene-CD630_RS00010 gene name in the file belebele.bed. What is the starting position (given in the 2nd column)? <<
+>> Print the line that contains the gene-CD630_RS00010 gene name in the gnagnagna.bed file. What is the starting position (given in the 2nd column)? <<
 ( ) 74750
 ( ) 94950
-(*) 84750
+(*) 1561
 ( ) 750
 
 
-If we do it now for gene ABC in the same file:
+If we do it now for gene ABC in the belebele.bed file:
 
 ```bash
 grep ABC belebele.bed
