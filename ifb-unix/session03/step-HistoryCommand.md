@@ -4,3 +4,5 @@
 
 - `!num` where *num* is the command number in history: runs again the corresponding command.
 
+- You can also use up-arrow to get ther previous (unexecuted) command back and you can change it as you need.
+
