@@ -13,9 +13,9 @@ Once in `less`, you can use the following keys to navigate into the file:
 
 - <kbd>enter</kbd> : go down one line
 - <kbd>space</kbd> : go down one page
-- <kbd>b</kbd> : go up one page
-- <kbd>g</kbd> : go to the beginning of file
-- <kbd>G</kbd> : go to the end of file
+- <kbd>B</kbd> : go up one page
+- <kbd>G</kbd> : go to the beginning of file
+- <kbd>SHIFT</kbd>+<kbd>G</kbd> : go to the end of file
 
 You can also search through the file you opened with `less` by typing <kbd>/</kbd> followed by the characters you want to search and then pressing <kbd>enter</kbd>. 
 The screen will jump to the first occurrence of the searched item which will be highlighted.
