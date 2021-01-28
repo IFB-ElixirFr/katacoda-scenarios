@@ -15,9 +15,9 @@ Check that you are in the right folder with `pwd`:
 pwd
 ```
 
-The result should be `/root/data`
+The result should be `/root/data` where there are 4 files (see with `ls`).
 
-## Step1:  How to look at the content of files ?
+## How to look at the content of files ?
 
 ###  *cat*
 
