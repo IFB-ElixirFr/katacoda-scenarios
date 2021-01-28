@@ -25,7 +25,7 @@ You can change the delimiter between fields with option _-d_.
 Look at the begining of the _belebele.bed_ file (try `head belebele.bed`). 
 It contains 6 columns, separated by a tabulation.
 
->> Choose the correct command(s) to extract the 3rd, 5th, and 6th columns of the _belebele.bed_ file: <<
+>> Choose the correct command(s) to extract the 3rd, 5th, and 6th columns of the belebele.bed file: <<
 [*] cut -f 3,5,6 belebele.bed
 [*] cut -f 3,5-6 belebele.bed
 [] cut -f 3,5,6 -d "," belebele.bed
