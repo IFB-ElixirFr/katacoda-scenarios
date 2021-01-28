@@ -17,7 +17,7 @@ Once in `less`, you can use the following keys to navigate into the file:
 - <kbd>G</kbd> : go to the beginning of file
 - <kbd>SHIFT</kbd>+<kbd>G</kbd> : go to the end of file
 
-You can also search through the file you opened with `less` by typing <kbd>/</kbd> followed by the characters you want to search and then pressing <kbd>enter</kbd>. 
+You can also search through the file you opened with `less` by typing <kbd>/</kbd> followed by the characters you want to search and then pressing <kbd>ENTER</kbd>. 
 The screen will jump to the first occurrence of the searched item which will be highlighted.
 Pressing <kbd>n</kbd> will bring you to the next occurence. 
 Proceeding that way will search forward into the file. 
