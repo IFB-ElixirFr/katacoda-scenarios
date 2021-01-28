@@ -2,19 +2,25 @@ The `tree` command displays the tree-like organisation of files and sub-director
 
 In the example below, the `tree` command displays the content of the `/shared` directory limited only to directories (option `-d`) and with only two levels of sub-directories (option `-L 2`):
 
-`tree -d -L 2 /shared`
+```bash
+tree -d -L 2 /shared
+```
 
 These repositories where conceived to stored genone files of different species.
 
 From the previous command, we can construct a path from the root `/` to the `homo_sapiens` directory. This path is:
 
-`/shared/bank/homo_sapiens`
+```bash
+/shared/bank/homo_sapiens
+```
 
 As stated previously, this path that starts with an `/` is an absolute path. Starting from the root  `/`, we go through the `shared` then `bank` directories to reach the target `homo_sapiens` directory.
 
 Paths are used in many Unix commands, such as the `ls` (that stands for **l**i**s**t) command:
 
-`ls /shared/bank/homo_sapiens`
+```bash
+ls /shared/bank/homo_sapiens
+```
 
 This command list the content of the specified directory.
 
