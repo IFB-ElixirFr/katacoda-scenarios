@@ -55,7 +55,7 @@ ls -sh Data
 [ ] ls -hsize Data
 
 
-### Summary
+> ### Summary
 
 Here we learn that:
 - we can execute a command by typing their name (options and/or arguments) and pressing <kbd>enter</kbd>
