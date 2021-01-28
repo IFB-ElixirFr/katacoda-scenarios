@@ -25,7 +25,7 @@ A first command allowing to view the content of a file is `cat`:
 
 ```bash
 cat gnagnagna.fasta
-`
+```
 
 This command will print the whole content of the _gnagnagna.fasta_ file to the screen.
 
