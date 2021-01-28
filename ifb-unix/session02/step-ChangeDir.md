@@ -4,8 +4,11 @@ The target directory must specified using an absolute or a relative path.
 To experiment withe the `cd` command, run the following commands:
 
 ```bash
+ls
 cd /shared/bank/nr
+ls
 cd ../homo_sapiens
+ls 
 ```
 
 >>Could you guess the absolute path of your current working directory?<<
