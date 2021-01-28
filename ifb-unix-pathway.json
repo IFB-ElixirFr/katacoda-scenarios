@@ -4,8 +4,8 @@
     "courses": [
       {
         "course_id": "session01",
-        "title": "Basics of the command line interface",
-        "description": "Unix, Shell, Terminal & command"
+        "title": "Basics of the Unix command line interface",
+        "description": "Unix, Linux, Shell, Terminal & command"
       },
       {
         "course_id": "session02",
