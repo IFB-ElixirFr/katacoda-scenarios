@@ -10,7 +10,7 @@ Unix commands are usually in lowercase.
 Now, type the following command in your terminal and press <kbd>enter</kbd> to valid it:
 ```bash
 date
-`
+```
 
 >>Are your Bash shell ok with the current date?<<
 (*) yes
