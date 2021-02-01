@@ -1,4 +1,4 @@
-### *less*
+### Browse a file interactively
 
 Very often the files you want to read are too large for your screen.
 For instance, you have previously display the content of the file _belebele.fasta_ with the `cat` command.
@@ -9,19 +9,22 @@ The `less` command allows you to open a file and browse its content interactivel
 less belebele.fasta
 ```
 
-Once in `less`, you can use the following keys to navigate into the file:
+Once in `less`, you can use the following keys to navigate inside the file:
 
-- <kbd>ENTER</kbd> : go down one line
-- <kbd>SPACE</kbd> : go down one page
+- <kbd>⬇️</kbd> or <kbd>Enter</kbd> : go down one line
+- <kbd>⬆️</kbd> : go up one line
+- <kbd>space</kbd> : go down one page
 - <kbd>B</kbd> : go up one page
 - <kbd>G</kbd> : go to the beginning of file
-- <kbd>SHIFT</kbd>+<kbd>G</kbd> : go to the end of file
+- <kbd>Shift</kbd>+<kbd>G</kbd> : go to the end of file
 
-You can also search through the file you opened with `less` by typing <kbd>/</kbd> followed by the characters you want to search and then pressing <kbd>ENTER</kbd>. 
+You can also search through the file you opened with `less` by typing <kbd>/</kbd> followed by the characters you want to search and then pressing <kbd>Enter</kbd>. 
 The screen will jump to the first occurrence of the searched item which will be highlighted.
 Pressing <kbd>N</kbd> will bring you to the next occurence. 
 Proceeding that way will search forward into the file. 
 To search backwards, you need to use <kbd>?</kbd> instead of <kbd>/</kbd> and then proceed similarly.
+
+
 Use <kbd>Q</kbd> to quit the `less` command.
 
 >> How many GGT motif counts the gnagnagna.fasta file? <<
