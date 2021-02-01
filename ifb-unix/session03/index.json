@@ -2,7 +2,7 @@
   "title": "Manipulating data",
   "description": "less, cat, head, tail, wc, grep & cut",
   "difficulty": "beginner",
-  "time": "10 minutes",
+  "time": "30 minutes",
   "details": {
     "assets": {
        "host01": [
