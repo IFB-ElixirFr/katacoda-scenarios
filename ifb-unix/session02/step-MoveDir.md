@@ -1,6 +1,6 @@
 ## Move (or rename) files and directories
 
-The `mv` (**m**o**v**e) command takes 2 paths as argument:
+The `mv` (**m**o**v**e) command takes 2 paths as arguments:
 
 ```bash
 mv <source_path> <destination_path>
