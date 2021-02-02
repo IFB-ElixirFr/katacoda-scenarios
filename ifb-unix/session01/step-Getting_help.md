@@ -49,7 +49,7 @@ ls -h
 ### Ask Internet
 
 Some usefull ressources:
-> - [explain shell command](https://explainshell.com) https://explainshell.com
-> - [a shell forum](https://stackoverflow.com) https://stackoverflow.com
+> - [explain shell command](https://explainshell.com) : https://explainshell.com
+> - [a shell forum](https://stackoverflow.com) : https://stackoverflow.com
 
 
