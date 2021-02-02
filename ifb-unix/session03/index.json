@@ -9,7 +9,8 @@
            {"file": "gnagnagna.fasta", "target": "data", "chmod": "+r"},
            {"file": "gnagnagna.bed", "target": "data", "chmod": "+r"},
            {"file": "belebele.fasta", "target": "data", "chmod": "+r"},
-           {"file": "belebele.bed", "target": "data", "chmod": "+r"}
+           {"file": "belebele.bed", "target": "data", "chmod": "+r"},
+           {"file": "peekaboo.csv", "target": "data", "chmod": "+r"}
        ]
     },
     "steps": [
