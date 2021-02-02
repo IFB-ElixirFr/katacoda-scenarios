@@ -21,14 +21,14 @@ However, depending on the computer note that the HOME directory is not always th
 Ask your administrator!
 
 
-To answer the question, please type:
+To answer the next question, please type the 3 following commands:
 
 ```bash
 cd /shared/bank/nr
 cd ~/test
 cd
 ```
->>and select the right current directory:<<
+>>and select the right current working directory:<<
 [ ] /shared/bank/nr/
 [ ] test/
 [*] your HOME directory
