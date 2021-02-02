@@ -22,7 +22,7 @@ Remarks :
 ### Options
 
 Options modify the way in which a command works.
-In Bash shell options start with a simple or double dash (`-` or `--`).
+In Bash, shell options start with a simple or double dash (`-` or `--`).
 
 For example, we can display the size of the files using the `--size` option of the `ls` command. 
 Lets try and type: 
@@ -34,7 +34,7 @@ ls --size Data
 Now, the 8 files are displayed with their respective sizes (in blocks). 
 
 You can use a short form for this option by replacing `--size` (long form) by `-s` (short form).
-Usually we use `-h` option to display sizes in more **h**uman readable formats (e.g. 1K 234M 2G). 
+Usually we use `-h` option to display sizes in more **h**uman readable formats (_e.g._ 1K, 234M, 2G). 
 You can use several options in the same command.
 You can merge short form options using a single dash as prefix.
 Example: type the following command in your terminal:
