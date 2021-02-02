@@ -1,6 +1,6 @@
 ## Create directory
 
-The `mkdir` command (**m**a**k**e **dir**rectory) creates a new directory whose name is given in argument.
+The `mkdir` command (**m**a**k**e **dir**rectory) creates a new directory whose name is given as argument.
 
 Use the `mkdir` command to create a repository `my_dir` in your HOME directory. To do so, first go to your HOME with the `cd` command, create the directory with the `mkdir` command, and see the result with the `tree` command:
 
@@ -19,7 +19,7 @@ cd
 mkdir /shared/projects/facts/my_dir2
 tree /shared/projects/facts
 ```
-## Copy files and directories
+## Copying files and directories
 
 The `cp` (**c**o**p**y) command copies files or directories. It takes 2 paths as argument:
 
@@ -37,7 +37,7 @@ ls
 
 With the option `-r` (**r**ecursive), the `cp` command copies all files of the source directory into the destination directory.
 
-Try and copy the `~/test` repository and its content to a new directory named `my_test` in the directory `/shared/projects/facts/`:
+Try to copy the `~/test` repository and its content to a new directory named `my_test` in the directory `/shared/projects/facts/`:
 
 ```bash
 tree /shared/projects/facts
