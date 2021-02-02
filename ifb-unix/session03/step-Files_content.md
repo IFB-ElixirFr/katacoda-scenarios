@@ -17,11 +17,11 @@ pwd
 
 The result should be `/root/data` where there are 4 files (see with `ls`).
 
-## How to look at the content of files ?
+## Displaying file contents
 
-###  *cat*
+### *cat*
 
-A first command allowing to view the content of a file is `cat`:
+A first command to display file contents is `cat`:
 
 ```bash
 cat gnagnagna.fasta
