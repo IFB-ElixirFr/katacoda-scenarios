@@ -1,6 +1,6 @@
 ### *tail*
 
-If you just want to check the end of a file, you may use the command `tail`:
+If you just want to check the end of a file, you may use the `tail` command:
 
 ```bash
 tail belebele.bed
