@@ -17,13 +17,13 @@ grep gene-SAOUHSC_00079 belebele.bed
 ( ) 750
 
 
-If we do it now for gene ABC in the belebele.bed file:
+If you do it now for gene ABC in the belebele.bed file:
 
 ```bash
 grep ABC belebele.bed
 ```
 
-We get no line containing the ABC gene name.
+You get no line containing the ABC gene name.
 
 To count the number of lines containing the _gene_ word, just add the `-c` option to the `grep` command:
 
