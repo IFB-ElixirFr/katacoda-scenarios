@@ -1,4 +1,4 @@
-## Step2:  How to select part of a file
+## How to select part of a file
 
 ### *grep*
 
@@ -34,8 +34,8 @@ grep -c gene belebele.bed
 >> Count the number of lines containing the <i>cds</i> word in belebele.bed ? <<
 ( ) 70
 ( ) 71
-( ) 72
-(*) 73
+(*) 72
+( ) 73
 
 
 Here are other useful `grep` options :
