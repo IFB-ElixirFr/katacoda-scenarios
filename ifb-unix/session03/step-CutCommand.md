@@ -14,10 +14,10 @@ cut -f 3 belebele.bed
 
 Multiple columns can be extracted using a coma between two column numbers or a '-' for a range of successive columns.
 
-Try the extraction of the 2 first columns and the 4th one from the _belebele.bed_ file:
+Try the extraction of the 3 first columns and the 5th one from the _belebele.bed_ file:
 
 ```bash
-cut -f 1-2,4 belebele.bed
+cut -f 1-3,5 belebele.bed
 ```
 
 You can change the delimiter between fields with option _-d_. 
