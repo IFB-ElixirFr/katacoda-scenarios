@@ -4,6 +4,12 @@ The output is the absolute path `/root` and means that you are currently located
 
 Remark: In a Unix system, the administrator (the boss) is called root. And you are presently in his personal directory that is also called `root`!
 
+If you type the `ls` command, you should see a sud-directory called `test`:
+
+```bash
+ls
+```
+
 From the present current working directory, we would like to see what is inside a sub-directory called `test`. 
 To represent the current working directory, we need the symbol `.` (point). 
 The relative path to the `test` sub-directory is `./test`.
