@@ -20,7 +20,15 @@ pwd
 However, depending on the computer note that the HOME directory is not always the right place to place large files (particularly on a cluster with shared resources). 
 Ask your administrator!
 
->>Select the right current directory after the commands included in back cotes: `cd /shared/bank/nr ; cd ~/test ; cd `:<<
+
+To answer the question, please type:
+
+```bash
+cd /shared/bank/nr
+cd ~/test
+cd
+```
+>>and select the right current directory:<<
 [ ] /shared/bank/nr/
 [ ] test/
 [*] your HOME directory
