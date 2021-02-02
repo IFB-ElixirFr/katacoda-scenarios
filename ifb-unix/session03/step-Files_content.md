@@ -15,7 +15,7 @@ Check that you are in the right folder with `pwd`:
 pwd
 ```
 
-The result should be `/root/data` where there are 4 files (see with `ls`).
+The result should be `/root/data` where there are 5 files (see with `ls`).
 
 ## Displaying file contents
 
