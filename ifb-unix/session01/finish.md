@@ -1,1 +1,1 @@
-You've completed the **Unix, Manipulating files and directories** scenario!
+You've completed the **Basics of the Unix command line interface** scenario. Congratulation!
