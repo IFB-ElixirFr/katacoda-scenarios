@@ -1,0 +1,46 @@
+{
+    "title": "Katacoda scenarios for IFB Unix training",
+    "creators": [{
+        "name": "Toffano-Nioche, Claire",
+        "orcid": "0000-0003-4134-6844"
+    },
+    {
+        "name": "Sand, Olivier",
+        "orcid": "0000-0003-1465-1640"
+    },
+    {
+        "name": "Poulain, Pierre",
+        "orcid": "0000-0003-4177-3619"
+    },
+    {
+        "name": "Chiapello, Hélène",
+        "orcid": ""
+    },
+    {
+        "name": "Denecker, Thomas",
+        "orcid": "0000-0003-1421-7641"
+    },
+    {
+        "name": "Seiler, Julien",
+        "orcid": "0000-0002-4549-5188"
+    },
+    {
+        "name": "Le Corguillé, Gildas",
+        "orcid": "0000-0003-1742-9711"
+    },
+    {
+        "name": "Puthier, Denis",
+        "orcid": "0000-0002-7240-5280"
+    }],
+    "description": "This repository contains the archived release of Katacoda scenarios for IFB Unix training",
+    "access_right": "open",
+    "license": "cc-by-sa-4.0",
+    "keywords": [
+        "Unix",
+        "Linux",
+        "Training",
+        "IFB",
+        "Katacoda"
+    ],
+    "upload_type": "lesson"
+}
