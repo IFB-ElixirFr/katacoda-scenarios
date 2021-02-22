@@ -1,9 +1,9 @@
 
-The commands of the previous chapter allowed you to move around in the Unix file system and access files. 
+In the previous chapters, you learnt how to move around in the Unix filesystem and access files. 
 This chapter will show you how to explore the data in those files. 
-The tools we’ll use are fairly simple, but are solid building blocks.
+The commands we’ll use are fairly simple, but are solid building blocks of more sophisticated traitement pipelines.
 
-First thing, go to the `data` directory with the `cd` command seen in the previous session:
+First, go to the `data` directory with the `cd` command:
 
 ``` bash
 cd data
