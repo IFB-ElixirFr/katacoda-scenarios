@@ -15,7 +15,7 @@ Check you are in the expected directory with `pwd`:
 pwd
 ```
 
-The result should be `/root/data` where there are 5 files (see with `ls`).
+The result should be `/root/data`. This directory should contain 5 files you could find with the command `ls`.
 
 ## Displaying file contents
 
