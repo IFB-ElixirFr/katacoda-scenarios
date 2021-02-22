@@ -9,7 +9,7 @@ First, go to the `data` directory with the `cd` command:
 cd data
 ```
 
-Check that you are in the right folder with `pwd`:
+Check you are in the expected folder with `pwd`:
 
 ```bash
 pwd
