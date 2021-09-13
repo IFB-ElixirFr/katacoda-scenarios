@@ -1,9 +1,6 @@
-The Shell is a software that can handle multiple Unix instructions and has become highly used by the bioinformatics community. 
-Indeed, the multiple steps of a bioinformatics analysis need to be stored for traceability, reproducibility or automation purposes. 
-With a Shell you can perform highly complex tasks by accessing either locally or distantly shared resources (e.g. files, databases, remote computing clusters...).
-These tasks are also easy to share with collaborators.
+The Shell is a software that handles Unix instructions. It is now commonly used by the bioinformatics community as it allows performing highly complex tasks by accessing either locally or distantly shared resources (e.g. files, databases, remote computing clusters...). These tasks can be coded in such a way that the multiple steps of a bioinformatics analysis can be saved into scripts. Those may then be shared with collaborators, traced and automated.
 
-To access these powerful features, you need to learn a new way of thinking and a new language.
+To access the Shell's powerful features, you need to learn a new way of thinking and a new language.
 
 >>Are you ready to learn Shell? (select "Yes" to continue!) <<
 (*) Yes
