@@ -7,7 +7,7 @@ It is a black frame displaying a **prompt** that usually ends by a `$` sign.
 Just after this prompt you will have to type commands.
 
 Several shells can be used to interact within the terminal (e.g. `bash`, `ksh`, `csh`, `zsh`, ...). 
-The most popular language is Bash which is the default OS Shell on most Linux systems. 
+The most popular shell is Bash which is the default OS Shell on most Linux systems. 
 In this course the Bash shell will be used.
 
 >>Is Bash a shell or a terminal?<<
