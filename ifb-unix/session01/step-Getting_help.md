@@ -27,7 +27,7 @@ SYNOPSIS
 ```
 
 The square brackets indicate that both OPTION and FILE are optional for the `ls` command. 
-Indeed when no options are provided, the `ls` command will simply display the names of file and directory in the current directory without providing the user with additional information (size, owner, creation date...). 
+Indeed when no options are provided, the `ls` command will simply display the names of files and directories in the current directory without providing the user with additional information (size, owner, creation date...). 
 
 And the DESCRIPTION section explains all the possible options of the command.
 
