@@ -1,6 +1,6 @@
-The Bash shell provides you a working space including files and directories.
+The Bash shell provides you with a working space including files and directories.
 
-A very useful command is `ls`, that’s **l**i**s**t content of a directory.
+A very useful command is `ls`, that **l**i**s**ts the content of a directory.
 On your Unix terminal on the right, type `ls` and then press <kbd>enter</kbd>.
 
 The Bash shell should display `Data` that is a directory named `Data`.
