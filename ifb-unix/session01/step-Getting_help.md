@@ -38,12 +38,11 @@ And the DESCRIPTION section explains all the possible options of the command.
 
 
 ### The help option
-An other way of getting help is to use the `--help` or `-h` or `-help` or `help` option after a command name.
-Example, type the following commands:
+An other way of getting help is to use the `--help` option after a command name (or, sometimes, `-h` or `-help` or `help`) .
+Example, type the following command:
 
 ```bash
 ls --help
-ls -h
 ```
 
 ### Ask Internet
