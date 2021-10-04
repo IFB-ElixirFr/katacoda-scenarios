@@ -35,7 +35,7 @@ cp first_file.txt third_file.txt
 ls 
 ```
 
-With the option `-r` (**r**ecursive), the `cp` command copies all files of the source directory into the destination directory.
+With the option `-r` (**r**ecursive), the `cp` command copies all files of the source directory to the destination directory.
 
 Try to copy the `~/test` repository and its content to a new directory named `my_test` in the directory `/shared/projects/facts/`:
 
