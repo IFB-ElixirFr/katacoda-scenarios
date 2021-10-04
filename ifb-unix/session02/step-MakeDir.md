@@ -1,6 +1,6 @@
 ## Create directory
 
-The `mkdir` command (**m**a**k**e **dir**rectory) creates a new directory whose name is given as argument.
+The `mkdir` command (**m**a**k**e **dir**ectory) creates a new directory whose name is given as argument.
 
 Use the `mkdir` command to create a repository `my_dir` in your HOME directory. To do so, first go to your HOME with the `cd` command, create the directory with the `mkdir` command, and see the result with the `tree` command:
 
