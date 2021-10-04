@@ -6,9 +6,9 @@ In the example below, the `tree` command displays the content of the `/shared` d
 tree -d -L 2 /shared
 ```
 
-These directories where created to store genome files of different species.
+These directories were created to store genome files of different species.
 
-From the previous command, we can construct a path from the root `/` to the `homo_sapiens` directory. This path is:
+From the previous command we deduce the  path from the root `/` to the `homo_sapiens` directory. This path is:
 
 ```bash
 /shared/bank/homo_sapiens
