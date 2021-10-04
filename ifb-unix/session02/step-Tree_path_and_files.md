@@ -2,7 +2,7 @@
 In a Unix operating system, files are arranged in a tree-like structure. In this structure, directories can be seen as branches and files (or empty directories) as leaves. Each file has a unique *path* in the tree-like structure when starting from the *root*.
 
 Files and directories are accessed through their paths.  
-In a path, each succesive directory name is separated by a `/`.  
+In a path, each successive directory name is separated by a `/`.  
 The root of the tree structure is also represented by the first `/` in the path. 
 
 There are 2 ways to describe paths: **absolute** and **relative**. 
