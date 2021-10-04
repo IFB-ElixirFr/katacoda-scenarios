@@ -1,7 +1,7 @@
 ### *head*
 
 You might sometimes want to check just the beginning of a file.
-The `head` command is made for that:
+That is what the `head` command does:
 
 ```bash
 head belebele.bed
