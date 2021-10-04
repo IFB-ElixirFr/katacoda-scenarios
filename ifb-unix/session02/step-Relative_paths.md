@@ -2,7 +2,7 @@ Run the `pwd` command in the right panel.
 
 The output is the absolute path `/root` and means that you are currently located in `/root`. 
 
-Remark: In a Unix system, the administrator (the boss) is called root. And you are presently in his personal directory that is also called `root`!
+Remark: In a Unix system, the administrator (the boss) is called root. And you are presently in its personal directory that is also called `root`!
 
 If you type the `ls` command, you should see a sud-directory called `test`:
 
@@ -11,7 +11,7 @@ ls
 ```
 
 From the present current working directory, we would like to see what is inside a sub-directory called `test`. 
-To represent the current working directory, we need the symbol `.` (point). 
+To represent the current working directory, we need the symbol `.` (dot). 
 The relative path to the `test` sub-directory is `./test`.
 
 ```bash
@@ -44,7 +44,7 @@ In an other example, if you are located in the `/root` directory, you could list
 ls ../tmp
 ```
 
-Same result would be obtained with the absolute path:
+The same result would be obtained with the absolute path:
 
 ```bash
 ls /tmp
