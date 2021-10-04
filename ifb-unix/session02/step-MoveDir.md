@@ -6,7 +6,7 @@ The `mv` (**m**o**v**e) command takes 2 paths as arguments:
 mv <source_path> <destination_path>
 ```
 
-It moves the **source** into the **destination**.  
+It moves the **source** to the **destination**.  
 It works for files or directories.  
 It is also used to rename files or directories.
 
