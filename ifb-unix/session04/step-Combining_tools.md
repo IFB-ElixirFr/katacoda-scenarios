@@ -1,0 +1,5 @@
+- Architecture of a UNIX command (STDOUT, STDIN, STDERR...)
+- Redirection operators (to command or file)
+- sort (avec l’option -n ou -g, -k -r)
+- uniq (-c, -u)
+- Redirecting a text stream
