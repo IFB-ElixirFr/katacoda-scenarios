@@ -22,7 +22,7 @@ cut -f 1-3,5 belebele.bed
 
 You can change the delimiter between fields with option _-d_. 
 
-Look at the begining of the _peekaboo.csv_ file (try `head peekaboo.csv`). 
+Look at the beginning of the _peekaboo.csv_ file (try `head peekaboo.csv`). 
 It contains 6 columns, separated by a comma.
 
 >>Choose the correct command(s) to extract the 2nd, 3rd, and 6th columns of the `peekaboo.csv` file:<<
