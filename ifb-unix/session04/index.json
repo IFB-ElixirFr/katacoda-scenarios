@@ -8,6 +8,22 @@
       {
       "title": "Combining tools",
       "text": "step-Combining_tools.md"
+      },
+      {
+      "title": "The opertors for redirection: <, > and &>",
+      "text": "step-RedirectionOperators.md"
+      },
+      {
+      "title": "The Pipe |",
+      "text": "step-Pipe.md"
+      },
+      {
+      "title": "The Sort and Uniq commands",
+      "text": "step-Sort_Uniq.md"
+      },
+      {
+      "title": "More practice?",
+      "text": "step-More_practice.md"
       }
     ],
     "intro": {
