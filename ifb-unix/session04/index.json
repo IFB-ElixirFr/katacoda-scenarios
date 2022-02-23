@@ -6,10 +6,6 @@
   "details": {
     "steps": [
       {
-      "title": "Combining tools",
-      "text": "step-Combining_tools.md"
-      },
-      {
       "title": "Output of an Unix command",
       "text": "step-Output_of_command.md"
       },
@@ -32,6 +28,10 @@
       {
       "title": "More practice?",
       "text": "step-More_practice.md"
+      },
+      {
+      "title": "Combining tools",
+      "text": "step-Combining_tools.md"
       }
     ],
     "intro": {
