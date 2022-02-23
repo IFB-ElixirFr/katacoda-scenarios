@@ -1,5 +1,5 @@
 ## Banks folders
-mkdir /shared/bank
+mkdir -p /shared/bank
 cd /shared/bank/
 mkdir -p bos_taurus homo_sapiens nr
 
