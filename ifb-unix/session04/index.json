@@ -10,16 +10,24 @@
       "text": "step-Combining_tools.md"
       },
       {
-      "title": "The opertors for redirection: <, > and &>",
-      "text": "step-RedirectionOperators.md"
+      "title": "Output of an Unix command",
+      "text": "step-Output_of_command.md"
       },
       {
-      "title": "The Pipe |",
+      "title": "Input of an Unix command",
+      "text": "step-Input_of_command.md"
+      },
+      {
+      "title": "Error stream and its redirection",
+      "text": "step-Error_stream.md"
+      },
+            {
+      "title": "Associate Sort and Uniq",
+      "text": "step-Sort_then_uniq_with_intermediate_files.md"
+      },
+      {
+      "title": "Associate with pipe",
       "text": "step-Pipe.md"
-      },
-      {
-      "title": "The Sort and Uniq commands",
-      "text": "step-Sort_Uniq.md"
       },
       {
       "title": "More practice?",
