@@ -4,6 +4,11 @@
   "difficulty": "beginner",
   "time": "10 minutes",
   "details": {
+    "assets": {
+       "host01": [
+           {"file": "gnagnagna.bed", "target": "data", "chmod": "+r"},
+       ]
+    },
     "steps": [
       {
       "title": "Output of an Unix command",
