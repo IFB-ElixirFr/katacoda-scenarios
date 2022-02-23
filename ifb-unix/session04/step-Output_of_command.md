@@ -2,27 +2,33 @@
 
 By default, as you have seen so far, the result of an Unix command is printed on screen.
 
-Example :
-'''
-$ grep...
-'''
-result of the command grep is printed on the screen
+For example, we extract the genomic location for the gene-SAOUHSC_00079 from the `belebele.bed` file with the `grep`command :
+First, check you have access to the `belebele.bed` file with the `ls` command and next, extract the location:
+```bash
+ls
+grep gene-SAOUHSC_00079 belebele.bed
+```
+The result of the command `grep` is printed on the terminal. 
 
-Icone “Vocabulary” : the standard output of a command is named stdout
+Icone “Vocabulary” : The standard output of a command is named **stdout**. 
+We illustrate by this schema:
 
 ![output printed on the screen](./assets/stream_out.png)
 
-By default, stdout is set to screen print. But you can change this behavior and print stdout to a file. 
-You must use the “1>” operator to do this or more simply, “>”.
+By default, **stdout** is set to screen print. 
 
-ex. reprise du grep précédent avec >
+But you can change this behavior and print **stdout** to a file. 
+You must use the `1>` operator to do this or more simply, `>`:
 
-Figure illustrating stdout redirection to a file
+```bash
+grep gene-SAOUHSC_00079 belebele.bed > SAOUHSC_00079.bed
+```
+This `>`is one of the `redirection operators`.
+
+The next figure illustrates the **stdout** redirection to a file:
 
 ![output printed into a file(./assets/stream_outfile.png)
 
-dans le style celle-ci mais à refaire car ne convient pas tout à fait => prendre la proposition de Gildas (cf. plus bas) : https://www.oueta.com/wp-content/uploads/2018/02/unix_like_stdio.png
-la figure se complexifiera au fur et à mesure de la présentation
 
 What is a Unix command (schema)?
 
