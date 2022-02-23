@@ -6,3 +6,7 @@ By default, stdin is set to the keyboard. But you can change this behavior and r
 
 The tr command translates (or deletes) characters from a text provided as input. The seq1 file contains one DNA sequence that we want to convert in RNA sequence (by replacing T by U) and change from upper case to lowercase
 ex. : tr [AGCT] [agcu] seq1 
+
+Icone remark: cat toto is equivalent to cat < toto and therefore cat < toto is seldom used
+
++figure complété de l'input stream
