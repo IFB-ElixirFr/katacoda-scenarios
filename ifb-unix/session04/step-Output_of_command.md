@@ -23,14 +23,12 @@ You must use the `1>` operator to do this or more simply, `>`:
 ```bash
 grep gene-SAOUHSC_00079 belebele.bed > SAOUHSC_00079.bed
 ```
-This `>`is one of the `redirection operators`.
+This `>` is one of the **redirection** operators.
 
 The next figure illustrates the **stdout** redirection to a file:
 
 ![output printed into a file](./assets/stream_outfile.png)
 
-
-What is a Unix command (schema)?
 
 Icone “Warning” : if the file already exists, it’s content will be replaced by the output of your command
 
