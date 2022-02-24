@@ -11,7 +11,7 @@ grep gene-SAOUHSC_00079 belebele.bed
 The result of the command `grep` is printed on the terminal. 
 
 Icone “Vocabulary” : The standard output of a command is named **stdout**. 
-We illustrate by this schema:
+The schema illustrates the output stream of a command:
 
 ![output printed on the screen](./assets/stream_out.png)
 
@@ -27,7 +27,7 @@ This `>`is one of the `redirection operators`.
 
 The next figure illustrates the **stdout** redirection to a file:
 
-![output printed into a file(./assets/stream_outfile.png)
+![output printed into a file](./assets/stream_outfile.png)
 
 
 What is a Unix command (schema)?
