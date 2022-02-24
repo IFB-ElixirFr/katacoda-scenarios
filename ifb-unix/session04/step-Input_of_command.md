@@ -9,4 +9,4 @@ ex. : tr [AGCT] [agcu] seq1
 
 Icone remark: cat toto is equivalent to cat < toto and therefore cat < toto is seldom used
 
-+figure complété de l'input stream
+![input strem of a command](./assets/stream_infile.png)
