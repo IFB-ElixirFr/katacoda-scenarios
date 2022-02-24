@@ -2,9 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4767356.svg)](https://doi.org/10.5281/zenodo.4767356)
 
-[Katacoda scenarios](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix)
+[Katacoda scenarios](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix) access to IFB-Unix courses 
 
-[Documentation](https://www.katacoda.community/welcome.html)
+[Katacoda Documentation](https://www.katacoda.community/welcome.html)
 
 
 ## License
