@@ -6,6 +6,8 @@ For example, we extract the genomic location for the gene-SAOUHSC_00079 from the
 First, check you have access to the `belebele.bed` file with the `ls` command and next, extract the location:
 ```bash
 ls
+ls data
+cd data
 grep gene-SAOUHSC_00079 belebele.bed
 ```
 The result of the command `grep` is printed on the terminal. 
