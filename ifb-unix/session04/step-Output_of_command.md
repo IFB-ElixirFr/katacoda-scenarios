@@ -2,25 +2,46 @@
 
 By default, as you have seen so far, the result of an Unix command is printed on screen.
 
-Example :
-'''
-$ grep...
-'''
-result of the command grep is printed on the screen
+For example, we extract the genomic location for the gene-SAOUHSC_00079 from the `belebele.bed` file with the `grep`command :
+First, check you have access to the `belebele.bed` file with the `ls` command and next, extract the location:
+```bash
+ls
+ls data
+cd data
+grep gene-SAOUHSC_00079 belebele.bed
+```
+The result of the command `grep` is printed on the terminal. 
 
-Icone “Vocabulary” : the standard output of a command is named stdout
+Icone “Vocabulary” : The standard output of a command is named **stdout**. 
+The schema illustrates the output stream of a command:
 
-By default, stdout is set to screen print. But you can change this behavior and print stdout to a file. 
-You must use the “1>” operator to do this or more simply, “>”.
+![output printed on the screen](./assets/stream_out.png)
 
-ex. reprise du grep précédent avec >
+By default, **stdout** is set to screen print. 
 
-Figure illustrating stdout redirection to a file
+But you can change this behavior and print **stdout** to a file. 
+You must use the `1>` operator to do this or more simply, `>`:
 
-dans le style celle-ci mais à refaire car ne convient pas tout à fait => prendre la proposition de Gildas (cf. plus bas) : https://www.oueta.com/wp-content/uploads/2018/02/unix_like_stdio.png
-la figure se complexifiera au fur et à mesure de la présentation
+```bash
+grep gene-SAOUHSC_00079 belebele.bed > gene.bed
+```
 
-What is a Unix command (schema)?
+Look: you created a new file nammed `gene.bed`
+```bash
+ls
+```
+You can see it content using the `cat` command:
+```bash
+cat gene.bed
+```
+The content of this new file is really the same as the result of the grep command.
+
+The `>` symbol is one of the **redirection** operators.
+
+The next figure illustrates the **stdout** redirection to a file:
+
+![output printed into a file](./assets/stream_outfile.png)
+
 
 Icone “Warning” : if the file already exists, it’s content will be replaced by the output of your command
 
@@ -30,11 +51,13 @@ To avoid this, you may use the “>>” operator which appends the output of you
 
 appli 1-bis: rejouer l’appli 1 avec “>>” pour le 2ème fichier
 
-Quizz : quelle commande permet d’afficher son résultat à la fin du fichier toto
-    grep truc fichier1 > toto
-    grep truc fichier1 >> toto
-    grep truc toto > fichier1
+>> quelle commande permet d’afficher son résultat à la fin du fichier toto ? <<
+( ) grep truc fichier1 > toto
+(*) grep truc fichier1 >> toto
+( ) grep truc toto > fichier1
 
 reprendre une commande déjà vue et envoyer le résultat dans un fichier : 
 par ex. celle du grep sur le bed (grep gene-SAOUHSC_00079 belebele.bed, cf. session 3, step-grep)
-
+'''bash
+grep gene-SAOUHSC_00079 belebele.bed
+'''
