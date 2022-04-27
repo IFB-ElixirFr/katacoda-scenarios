@@ -34,10 +34,9 @@ You can see it content using the `cat` command:
 ```bash
 cat gene.bed
 ```
+The content of this new file is really the same as the result of the grep command.
 
-
-
-This `>` is one of the **redirection** operators.
+The `>` symbol is one of the **redirection** operators.
 
 The next figure illustrates the **stdout** redirection to a file:
 
