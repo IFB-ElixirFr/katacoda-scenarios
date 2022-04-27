@@ -1,5 +1,8 @@
 ## Banks folders
-mkdir -p /shared/bank/{bos_taurus,homo_sapiens,nr}
+mkdir -p /shared/bank/bos_taurus
+mkdir -p /shared/bank/homo_sapiens
+mkdir -p /shared/bank/nr
+
 
 cd /shared/bank/bos_taurus
 mkdir -p ./UMD3.1/star-2.7.2b ./UMD3.1/fasta ./UMD3.1/bowtie2
