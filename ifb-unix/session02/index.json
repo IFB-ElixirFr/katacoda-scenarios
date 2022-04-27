@@ -4,6 +4,11 @@
   "difficulty": "beginner",
   "time": "25 minutes",
   "details": {
+    "assets": {
+       "host01": [
+           {"file": "intro-background_shared_bank.sh", "target": ".scripts", "chmod": "+rx"}
+       ]
+    },
     "steps": [
       {
       "title": "Tree, path & files",
