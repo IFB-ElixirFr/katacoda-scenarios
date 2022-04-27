@@ -21,8 +21,20 @@ But you can change this behavior and print **stdout** to a file.
 You must use the `1>` operator to do this or more simply, `>`:
 
 ```bash
-grep gene-SAOUHSC_00079 belebele.bed > SAOUHSC_00079.bed
+grep gene-SAOUHSC_00079 belebele.bed > gene.bed
 ```
+
+Look: you created a new file nammed `gene.bed`
+```bash
+ls
+```
+You can see it content using the `cat` command:
+```bash
+cat gene.bed
+```
+
+
+
 This `>` is one of the **redirection** operators.
 
 The next figure illustrates the **stdout** redirection to a file:
