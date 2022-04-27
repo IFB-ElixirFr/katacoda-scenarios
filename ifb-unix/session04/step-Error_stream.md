@@ -16,7 +16,7 @@ The stderr stream can be empty if the Unix command runs without error.
 
 As previously mentioned for stdin and stdout, it is also possible to redirect **stderr** to a file using the `2>` operator.
 
-![error stream of a command redirected on a file](./assets/stream_in_out_errfile.png)
+![error stream of a command redirected on a file](./assets/stream_in_outfile_errfile.png)
 
 ```bash
 remettre l’ex. ci-dessus et rediriger l’erreur dans un fichier avec 2>
