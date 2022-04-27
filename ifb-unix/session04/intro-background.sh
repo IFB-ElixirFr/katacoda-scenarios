@@ -11,4 +11,4 @@ gunzip hg38_exons.bed.gz
 
 bash .scripts/intro-background_shared_bank.sh
 
-mv hg38_exons.bed /shared/bank/homo_sapiens/hg38/.
+mv hg38_exons.bed /shared/bank/homo_sapiens/hg38/bed/.
