@@ -1,4 +1,4 @@
-## Input of an Unix command
+## Input of a Unix command
 
 Icone “Vocabulary” : the standard input of a command is named **stdin**
 
