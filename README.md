@@ -2,9 +2,9 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4767356.svg)](https://doi.org/10.5281/zenodo.4767356)
 
-Katacoda scenarios access to the [IFB-Unix courses](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix)  
+IFB-unix katacoda scenarios access to the [IFB-Unix courses](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix)  
 
-# Used applications
+## Used applications
 
 Some images are in `drawio` format and can be modified with the flowchart maker and online diagram software [diagrams.net](https://app.diagrams.net)
 
