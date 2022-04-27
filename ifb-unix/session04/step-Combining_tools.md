@@ -1,6 +1,6 @@
-# resume
+# Summary
 
-In this session you have discovered the 3 data streams of the unix command: the input stream (`stdin`), the output stream (`strout`) and the error stream (`stderr`):
+In this session you have discovered the 3 data streams of an unix command: the input stream (`stdin`), the output stream (`strout`) and the error stream (`stderr`):
 
 ![3 streams of a command](./assets/stream_in_out_err.png)
 
