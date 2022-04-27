@@ -1,6 +1,6 @@
-## Output of an Unix command
+## Output of a Unix command
 
-By default, as you have seen so far, the result of an Unix command is printed on screen.
+By default, as you have seen so far, the result of a Unix command is printed on screen.
 
 For example, we extract the genomic location for the gene-SAOUHSC_00079 from the `belebele.bed` file with the `grep`command :
 First, check you have access to the `belebele.bed` file with the `ls` command and next, extract the location:
@@ -26,15 +26,15 @@ You must use the `1>` operator to do this or more simply, `>`:
 grep gene-SAOUHSC_00079 belebele.bed > gene.bed
 ```
 
-Look: you created a new file nammed `gene.bed`
+Look: you created a new file named `gene.bed`
 ```bash
 ls
 ```
-You can see it content using the `cat` command:
+You can see its content using the `cat` command:
 ```bash
 cat gene.bed
 ```
-The content of this new file is really the same as the result of the grep command.
+The content of this new file is just the same as the result of the grep command.
 
 The `>` symbol is one of the **redirection** operators.
 
