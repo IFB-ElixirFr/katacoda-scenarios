@@ -4,6 +4,10 @@
 
 Katacoda scenarios access to the [IFB-Unix courses](https://www.katacoda.com/ifb-elixirfr/courses/ifb-unix)  
 
+# Used applications
+
+Some images are in `drawio` format and can be modified with the flowchart maker and online diagram software [diagrams.net](https://app.diagrams.net)
+
 [Katacoda Documentation](https://www.katacoda.community/welcome.html)
 
 
