@@ -10,16 +10,17 @@ ls data
 cd data
 grep gene-SAOUHSC_00079 belebele.bed
 ```
-The result of the command `grep` is printed on the terminal. 
+The result of the command `grep` is printed on the terminal.
 
-Icone “Vocabulary” : The standard output of a command is named **stdout**. 
+📕 The standard output of a command is named **stdout**.
+
 The schema illustrates the output stream of a command:
 
 ![output printed on the screen](./assets/stream_out.png)
 
-By default, **stdout** is set to screen print. 
+By default, **stdout** is set to screen print.
 
-But you can change this behavior and print **stdout** to a file. 
+But you can change this behavior and print **stdout** to a file.
 You must use the `1>` operator to do this or more simply, `>`:
 
 ```bash
@@ -30,7 +31,7 @@ Look: you created a new file nammed `gene.bed`
 ```bash
 ls
 ```
-You can see it content using the `cat` command:
+You can see its content using the `cat` command:
 ```bash
 cat gene.bed
 ```
@@ -42,22 +43,24 @@ The next figure illustrates the **stdout** redirection to a file:
 
 ![output printed into a file](./assets/stream_outfile.png)
 
+⚠️ if the file already exists, it’s content will be replaced by the output of your command
 
-Icone “Warning” : if the file already exists, it’s content will be replaced by the output of your command
+If you run the same `grep` as before but searching for a different gene, the output file will be overwritten
 
-appli 1 : grep 1 > fichier, more le fichier, grep 2 > fichier, more fichier
+```bash
+grep gene-SAOUHSC_00078 belebele.bed > gene.bed
+cat gene.bed
+```
 
 To avoid this, you may use the “>>” operator which appends the output of your command to the end of an existing file.
 
-appli 1-bis: rejouer l’appli 1 avec “>>” pour le 2ème fichier
+```bash
+grep gene-SAOUHSC_00079 belebele.bed > gene.bed
+grep gene-SAOUHSC_00078 belebele.bed >> gene.bed
+cat gene.bed
+```
 
->> quelle commande permet d’afficher son résultat à la fin du fichier toto ? <<
-( ) grep truc fichier1 > toto
-(*) grep truc fichier1 >> toto
-( ) grep truc toto > fichier1
-
-reprendre une commande déjà vue et envoyer le résultat dans un fichier : 
-par ex. celle du grep sur le bed (grep gene-SAOUHSC_00079 belebele.bed, cf. session 3, step-grep)
-'''bash
-grep gene-SAOUHSC_00079 belebele.bed
-'''
+>> Which command appends its result at the end of the toto file ? <<
+( ) grep foo file1 > toto
+(*) grep foo file1 >> toto
+( ) grep foo toto > file1
