@@ -13,7 +13,7 @@ touch \
 cd /shared/bank/homo_sapiens
 mkdir -p \
   ./hg19 ./hg19/hisat2 ./hg19/star-2.7.5a ./hg19/fasta ./hg19/bowtie2 \
-  ./hg38 ./hg38/hisat2 ./hg38/star-2.7.5a ./hg38/fasta ./hg38/bowtie2
+  ./hg38 ./hg38/hisat2 ./hg38/star-2.7.5a ./hg38/fasta ./hg38/bowtie2 ./hg39/bed
 touch \
   hg19/hisat2/hg19.2.ht2 hg19/hisat2/hg19.1.ht2 hg19/hisat2/hg19.3.ht2 hg19/hisat2/hg19.4.ht2 \
   hg19/star-2.7.5a/SAindex hg19/star-2.7.5a/chrLength.txt hg19/star-2.7.5a/chrName.txt hg19/star-2.7.5a/chrStart.txt hg19/star-2.7.5a/genomeParameters.txt \
